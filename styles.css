@@ -1,0 +1,27 @@
+.body{
+    background-color: aquamarine;
+}
+
+.container{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.board{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap:5px;
+    margin:20px auto;
+}
+
+.cell{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #eee;
+    border:1px solid #ccc;
+    width:100px;
+    height: 100px;
+}
